@@ -1,0 +1,51 @@
+:root{
+    --cor-de-fundo: rgb(44, 12, 161);
+    --cor-cabecalho:rgb(55, 69, 196);
+    --fundo-menu:rgb(10, 8, 99);
+}
+
+body{
+    background-color: rgb(33, 7, 146);
+}
+
+.cabecalho{
+    background-color: rgb(12, 20, 128);
+}
+
+.cabecalho-titulo{
+    font-size: rgb(11, 87, 187);
+    font-weight: rgb(9, 24, 231);
+    padding: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.cabecalho-menu{
+    background-color: rgb(0, 0, 0);
+}
+
+.cabecalho-menu-item{
+    display: block;
+    padding: 15px;
+    font-size: 32px;
+    text-decoration: none;
+    color: rgb(29, 0, 133);
+    text-align: center;
+    border-top: 1px solid;
+}
+.cabecalho-imagem{
+    width: 300px;
+}
+
+
+#burguer {
+    background-color: rgb(2, 2, 121);
+    display: block;
+    color: rgb(247, 247, 247);
+    text-align: center;
+    padding: 10px;
+    }
+
+#menu {
+    display: none;
+    }

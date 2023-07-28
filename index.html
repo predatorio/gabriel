@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <title>Fotos do Universo</title>
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="galaxia.jpg" alt= "foto da galaxia">
+        <h1 class="cabecalho-titulo">Site do Cubo magico</h1>
+
+        <span id="burguer" class="material-symbols-outlined"
+onclick="clickMenu()">menu</span>
+
+        <nav id="menu" class="cabecalho-menu">
+
+            <ul>
+                <ul>
+                    <li><a class="cabecalho-menu-item" href=>Tempos de solve</a>/li>
+                    <li><a class="cabecalho-menu-item" href=>Recordes de solve</a>/li>
+                    <li><a class="cabecalho-menu-item" href=>Cubos magicos</a></li>
+                </ul>
+            </nav>
+            </header>
+
+            <script>
+
+                function clickMenu() {
+                if (menu.style.display == 'block') {
+                menu.style.display = 'none';
+                } else {
+                menu.style.display = 'block';
+                }
+                }
+                </script>
+</body>
+</html>
